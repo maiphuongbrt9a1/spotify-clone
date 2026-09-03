@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Figtree } from "next/font/google";
-import "./globals.css";
+import "@/app/globals.css";
 
 const figtree = Figtree({
   variable: "--font-figtree",
